@@ -14,7 +14,7 @@
     "ii": "npm install --registry https://registry.npm.taobao.org"
   },
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.18.1",
     "cos-js-sdk-v5": "^0.5.16",
     "cross-env": "^5.0.0",
     "dayjs": "^1.8.14",
