@@ -1,0 +1,67 @@
+{
+  "name": "user-improve-h5",
+  "version": "4.2.1",
+  "description": "基于egg-vue-webpack-spa-boilerplate开发的分销库存管理H5",
+  "scripts": {
+    "debug": "egg-bin debug",
+    "clean": "easy clean",
+    "build": "easy build prod",
+    "start": "egg-scripts start --daemon --title=server-shuiyulai",
+    "stop": "egg-scripts stop --title=server-shuiyulai",
+    "dev": "egg-bin dev",
+    "lint": "eslint .",
+    "fix": "eslint --fix .",
+    "ii": "npm install --registry https://registry.npm.taobao.org"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cos-js-sdk-v5": "^0.5.16",
+    "cross-env": "^5.0.0",
+    "dayjs": "^1.8.14",
+    "egg": "^2.1.0",
+    "egg-bin": "^4.3.7",
+    "egg-cors": "^2.0.0",
+    "egg-logger": "^1.8.0",
+    "egg-mongoose": "^3.2.0",
+    "egg-scripts": "^2.9.1",
+    "egg-validate": "^1.0.0",
+    "egg-view-vue-ssr": "^3.0.2",
+    "extend": "^3.0.2",
+    "html2canvas": "^1.0.0-rc.3",
+    "js-cookie": "^2.2.0",
+    "lodash": "^4.17.4",
+    "md5": "^2.2.1",
+    "qcloud-cos-sts": "^2.0.7",
+    "qcloudsms_js": "^0.1.1",
+    "qrcode.vue": "^1.6.1",
+    "vant": "^1.6.19",
+    "vue": "^2.5.0",
+    "vue-hot-reload-api": "^2.1.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.1.1",
+    "vuex-router-sync": "^5.0.0"
+  },
+  "devDependencies": {
+    "autod-egg": "^1.0.0",
+    "easywebpack-cli": "^4.0.0",
+    "easywebpack-vue": "^4.0.0",
+    "egg-logview": "^1.0.0",
+    "egg-webpack": "^4.0.0",
+    "egg-webpack-vue": "^2.0.0",
+    "eslint": "^4.3.0",
+    "eslint-plugin-vue": "^2.0.1",
+    "imagemin-webpack-plugin": "^1.5.2",
+    "ip": "^1.1.5",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "vconsole": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "ci": {
+    "version": "8, 9"
+  },
+  "author": "hubcarl@126.com",
+  "license": "MIT"
+}
